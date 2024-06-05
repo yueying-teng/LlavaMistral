@@ -69,6 +69,8 @@ nohup bash scripts/v1_5/inhouse_finetune.sh > inhouse_finetune.out &
 ```
 3. Merge LoRA weights
 ```bash
-python scripts/merge_lora_weights.py     --model-path ./checkpoints/llava-v1.5-vicuna-7b-v1.3-finetune_lora     --model-base ./checkpoints/vicuna-7b-v1.3     --save-model-path ./checkpoints/merged_llava-v1.5-vicuna-7b-v1.3-finetune_lora
+python scripts/merge_lora_weights.py \
+    --model-path ./checkpoints/llava-v1.5-Mistral-7B-Instruct-v0.2-finetune_lora_mistral_generated_data \
+    --model-base ./checkpoints/Mistral-7B-Instruct-v0.2 \
+    --save-model-path ./checkpoints/merged_llava-v1.5-Mistral-7B-Instruct-v0.2-finetune_lora_mistral_generated_data
 ```
-

@@ -40,9 +40,9 @@ git clone https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K
     - `generated_data/complex_reasoning_77k.json`
     - `generated_data/conversation_58k.json`
     - `generated_data/detail_23k.json`
-    - `generated_data/llava_instruct_150k.json`
+    - `generated_data/mistral_generated_llava_instruct_150k.json`
 
-3. `generated_data/llava_instruct_150k.json` is needed for finetuning and make sure it's stored like this `./LlavaMistral/generated_data/mistral_generated_llava_instruct_150k.json`
+3. `generated_data/mistral_generated_llava_instruct_150k.json` is needed for finetuning and make sure it's stored like this `./LlavaMistral/generated_data/mistral_generated_llava_instruct_150k.json`
 
 
 ### Download Mistral 7B model

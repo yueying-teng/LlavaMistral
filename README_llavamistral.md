@@ -2,6 +2,8 @@
 
 ## Steps
 
+### Set up the environment by following the steps [here](https://github.com/yueying-teng/LlavaMistral?tab=readme-ov-file#install)
+
 ### Install git-lfs
 ```bash
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
